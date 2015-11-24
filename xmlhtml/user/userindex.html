@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="trimview" content="1.0.0">
+		<meta charset="utf-8" />
+		<title>我的信息</title>
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/public/public.css"/>
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/user/userindex.css"/>
+	</head>
+	<body>
+		<section>
+			<header class="myaccount">
+				<span class="left" id="control"></span>
+				<span class="center">我的信息</span>
+				<span class="right"></span>
+			</header>
+			<article id="iScrolluserindex" class="article art-top50 art-btm50 ">
+				<div>
+				<!--<div id="hide" style="display: none;"><img src=""/></div>-->
+				<div id="user-login" class="user-login">
+					<span class="login-desc">欢迎来到限量卖商城</span>
+					<span class="login-btn"></span>
+					<span class="login-img">
+						<img src="" id="img" />
+					</span>
+					<span class="login-ad"></span>
+				</div>
+				<ul class="u-twos">
+					<li id="mycollect1">
+						<span id="mycollectcount">0</span>
+						<span>我的收藏</span>
+					</li>
+					<li>
+						<span class="number_count">0</span>
+						<span>浏览记录</span>
+					</li>
+				</ul>
+				<div class="user-type height100">
+					<ul>
+						<li></li>
+						<li>
+							<div id="allorder" class="user-r-t1 arrow" >全部订单</div>
+							<div class="user-r-lst">
+								<ul>
+									<li name="state_new" id="topay">待支付<i>0</i></li>
+									<li name="state_pay" id="state_pay">待发货<i>0</i></li>
+									<li name="state_send" id="tohad">待收货<i>0</i></li>
+									<li id="aftersale">退换货<i>0</i></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="user-type height100">
+					<ul>
+						<li style=" background-image: url(../App_Themes/img/ml.png);"></li>
+						<li>
+							<div class="user-r-t1">我的钱包</div>
+							<div class="user-rt-lst">
+								<ul>
+									<li><a id="accountnum">0.00</a>账户余额</li>
+									<li id="mycoupon"><a>0</a>礼卷</li>
+									<li class="scores"><a id="scores">0</a>积分</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<ul class="user-lst user-r-lst">
+					<li id="myfavorites">
+						<span style="background-image: url(../App_Themes/img/sc.png);"></span>
+						<span>我的收藏夹</span>
+					</li>
+					<li id="mymessage">
+						<span style="background-image: url(../App_Themes/img/xj.png);"><i>0</i></span>
+						<span>我的消息</span>
+					</li>
+					<li id="myshoppingart">
+						<span style="background-image: url(../App_Themes/img/gwc.png);"><i>0</i></span>
+						<span>我的购物车 </span>
+					</li>
+					
+					<li id="refundRecord">
+						<span style="background-image: url(../App_Themes/img/uppwd.png);"></span>
+						<span>退换货/款记录 </span>
+					</li>
+					<li id="address">
+						<span style="background-image: url(../App_Themes/img/address.png);"></span>
+						<span>收货地址 </span>
+					</li>
+					<li id="uppwd">
+						<span style="background-image: url(../App_Themes/img/uppwd.png);"></span>
+						<span>密码管理 </span>
+					</li>
+				</ul>
+				<ul class="user-lst">
+					<!--<li id="accountsafe" >
+						<span style="background-image: url(../App_Themes/img/aq.png);"></span>
+						<span>账户与安全</span>
+					</li>-->
+					<li id="browserecord">
+						<span style="background-image: url(../App_Themes/img/jl.png);"></span>
+						<span>浏览记录 </span>
+					</li>
+					<!--<li id="appraisegoods" >
+						<span style="background-image: url(../App_Themes/img/plk.png);"></span>
+						<span>评价列表</span>
+					</li>-->
+					
+				</ul>
+				</div>
+			</article>
+			
+			<footer>
+				<ul>
+					<li id="shop-shopindex">
+						<!--<span></span>
+						<span>首页</span>-->
+					</li>
+					<li id="stringify-stringifyindex">
+						<!--<span></span>
+						<span>分类</span>-->
+					</li>
+					<li id="my-mycart">
+						<!--<span></span>
+						<span>购物车</span>-->
+					</li>
+					<li class="this" id="user-userindex">
+						<!--<span></span>
+						<span>我的</span>-->
+					</li>
+					<li id="moer-moerindex">
+						<!--<span></span>
+						<span>更多</span>-->
+					</li>
+				</ul>
+			</footer>
+		</section>
+		<ul class="ulhide">
+        	<li>
+        		<span class="takep">拍照</span>
+        		<span class="pics">相册选择</span>
+        	</li>
+        	<li></li>
+        </ul>
+		<script src="../App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/cordova.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/getAjax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/when.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/upload_pic1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/user/userindex.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

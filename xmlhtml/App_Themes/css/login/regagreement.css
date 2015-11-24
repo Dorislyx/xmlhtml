@@ -1,0 +1,48 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background:#fcfcfc;
+}
+header>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+header>span.center{
+	font-size: 1.5em;
+}
+.ntegral{
+	height: 60px;
+	background: #f3f3f3;
+	line-height: 60px;
+	border-top:1px solid #CCCCCC;
+	margin-top: 20px;
+	background-image: url(../../img/border.png);
+	background-position: bottom;	
+	background-repeat: repeat-x;
+	}
+.ntegral span:nth-child(1){
+	font-size: 1.4em;
+	padding-left: 15px;
+}
+.ntegral span:nth-child(2){
+	font-size: 1.5em;
+	color: #f4002e;
+	padding-left: 5px;
+}
+.ntegraltext{
+	width: 90%;
+	margin: 0 auto;
+}
+.ntegraltext h1{
+	font-size: 1.3em;
+	line-height: 35px;
+}
+.ntegraltext p{
+	font-size: 1.2em;
+	line-height: 30px;
+}

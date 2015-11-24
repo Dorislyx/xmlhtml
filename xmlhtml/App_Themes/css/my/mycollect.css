@@ -1,0 +1,155 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+body {
+	background-color: white;
+}
+.mycollect>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	width: 35px;
+}
+.mycollect>span.center {
+	font-size: 1.5em;
+}
+.type-lst {
+	width: 100%;
+	height: 40px;
+}
+.type-lst>ul {
+	width: 100%;
+	height: 98%;
+	border-bottom: 1px solid #929292;
+}
+.type-lst>ul>li {
+	width: 50%;
+	float: left;
+	height: 103%;
+	text-align: center;
+	line-height: 40px;
+}
+.type-lst>ul>li:nth-child(1) {
+	background-image: url(../../img/s1.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 1% 20px;
+}
+.type-lst>ul>li>span {
+	color: #323232;
+	font-size: 1.2em;
+	padding: 8px 20%;
+}
+.type-lst>ul>li.this>span {
+	border-bottom: 2px solid #FF4400;
+}
+.lst>li {
+	border-bottom: 1px solid #d2d2d2;
+	height: 100px;
+}
+.lsttwo {
+	display: none;
+}
+.lst>li>div {
+	float: left;
+	height: 100%;
+}
+.img-p {
+	width: 26%;
+}
+.img-p>img {
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+.context-p {
+	width: 74%;
+}
+.context-p>span {
+	float: left;
+}
+.context-a {
+	width: 86%;
+	height: 65px;
+	
+}
+.context-a>a {
+	width: 100%;
+	float: left;
+}
+.right-a {
+	width: 7%;
+	height: 70%;
+	background-image: url(../../img/set-right.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 55%;
+}
+.context-a>a:nth-child(1) {
+	font-size: 1.1em;
+	color: #323232;
+	padding:15px 0px;
+}
+.context-a>a:nth-child(2) {
+	font-size: 1.1em;
+	color: #323232;
+}
+.context-a>del {
+	color: #999999;
+	font-size: 1.2em;
+	padding: 5px 0px;
+	float: left;
+}
+.price-a {
+	height: 25px;
+	width: 100%;
+	line-height: 25px;
+}
+.price-a>a:nth-child(1) {
+	float: left;
+	font-size: 1em;
+	color: #FF4400;
+}
+.price-a>a:nth-child(1)>em {
+	font-size: 1.3em;
+}
+.price-a>a:nth-child(2) {
+	float: right;
+	margin-right: 5px;
+	font-size: 1em;
+	border: 1px solid #999;
+	/* padding: 5px; */
+	
+	line-height: 21px;
+	width: 45px;
+	height: 21px;
+	text-align: center;
+	border-radius: 5px;
+}
+.price-a>a:nth-child(2)>em {
+	color: #FF4400;
+	font-size: 1.1em;
+}
+span.price-a>a.close-mycollect {
+	border: 1px solid #3E6C52;
+	height: 23px;
+	padding: 0px;
+	border-radius: 5px;
+	line-height: 23px;
+	width: 60px;
+	text-align: center;
+}
+span.price-a>a.close-mycollectshop {
+	border: 1px solid #3E6C52;
+	height: 23px;
+	padding: 0px;
+	border-radius: 5px;
+	line-height: 23px;
+	width: 60px;
+	float: right;
+	color: black;
+	margin-right: 10px;
+	text-align: center;
+}

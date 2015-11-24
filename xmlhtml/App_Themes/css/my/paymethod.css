@@ -1,0 +1,61 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+body {
+	background: #f2f2f2;
+}
+.paymethod>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.paymethod>span.center {
+	font-size: 1.5em;
+}
+.paymethod_list>li {
+	background: #fff;
+	min-height: 180px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+.paymethod_list>li>h2 {
+	height: 40px;
+	line-height: 40px;
+	font-weight: normal;
+	font-size: 1.2em;
+	border-bottom: 1px solid #ccc;
+}
+.paymethod_list>li>div>p {
+	margin-top: 10px;
+	color: #333;
+	font-size: 1.1em;
+}
+.paymethod_list>li>div>span {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	width: 25%;
+	margin: 7px 5px 5px 0;
+	border-radius: 3px;
+}
+.paymethod_list>li>div>span.current {
+	color: #ff6f3f;
+	border-color: #ff6f3f;
+	border-radius: 3px;
+}
+.pay_btn {
+	width: 80%;
+	margin: 30px auto;
+	background: #383838;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4em;
+}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+body {
+	background-color: #F2F2F2;
+}
+.allorders>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.allorders>span.center {
+	font-size: 1.5em;
+}
+.order_list li {
+	background: #fff;
+	border-top: 1px solid #ececec;
+	margin-top: 10px;
+}
+.order_list li>div {
+	padding: 10px 10px;
+}
+.order_list li>div {
+	height: auto;
+	border-bottom: 1px solid #e8e8e8;
+}
+.od_status {
+	line-height: 50px;
+}
+.order_list li>div b {
+	float: left;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+.order_list li>div>.truepay {
+	
+}
+.order_list li>div>.truepay>b {
+	background-image: none;
+	width: auto;
+	float: left;
+}
+.order_list li>div div {
+	/*float: right;*/
+	
+	width: 100%;
+	display: inline-block;
+}
+.order_list li>div div.payagain {
+	width: 70px;
+}
+.order_list li>div div span {
+	font-size: 1.3em;
+	color: #adadad;
+	float: left;
+}
+.order_list li>div:nth-child(1) div b {
+	display: none;
+	float: right;
+	width: 50px;
+	height: 48px;
+	background: url(../../img/del.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 32%;
+}
+.order_list li>div h2 {
+	line-height: 30px;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+.order_list li>div h2>em {
+	float: right;
+	font-size: 0.8em;
+	width: 25%;
+	text-align: center;
+}
+.order_list li>div dl {
+	padding: 5px 0;
+	margin: 0;
+}
+.order_list li>div dt {
+	width: 22%;
+	float: left;
+}
+.order_list li>div dt img {
+	width: 47px;
+	/*height: 47px;*/
+	border: none;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+}
+.order_list li>div dd {
+	float: left;
+	width: 78%;
+	padding-top: 2px;
+	line-height: 20px;
+}
+.truepay {
+	float: left;
+}
+.truepay b {
+	color: #ff6a40;
+	font-weight: normal;
+}
+.payagain {
+	float: right;
+	margin-left: 5px;
+	border: 1px solid #ffaf92;
+	color: #ff6a40;
+	width: 25%;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+}
+.red {
+	color: #ff6a40;
+}
+dd>a {
+	float: left;
+	width: 100%;
+	font-size: 1.1em;
+}
+dd>span {
+	float: right;
+	border: 1px solid #ffaf92;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 5px;
+	color:#ff6a40 ;
+}

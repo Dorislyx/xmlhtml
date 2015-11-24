@@ -1,0 +1,191 @@
+
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #F2F2F2;
+}
+.addressListheader>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.addressListheader>span.center{
+	font-size: 1.5em;
+}
+.adress-lst{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+.adress-lst>li{
+	width: 100%;
+	height: 70px;
+	margin: 0px auto;
+	border-bottom: 1px solid #DFDFDF;
+}
+.adress-lst>li>div{
+	width: 98%;
+	float: left;
+}
+.adress-lst>li.this>div{
+	background-image: url(../../img/options.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 8%;
+}
+.adress-lst>li span{
+	width: 95%;
+	height: 34px;
+	float: left;
+	font-size: 1.2em;
+	line-height: 35px;
+	text-align: left;
+	color: #999999;
+}
+.adress-lst>li span:nth-child(2){
+	padding-left: 8px;
+}
+
+.adress-lst>li span>a{
+	color: #323232;
+	font-size: 1.2em;
+	margin-left: 10px;
+}
+.cread-address{
+	border-radius: 5px;
+	background-color: #c91424;
+	width: 90%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+.cread-address>span:nth-child(1){
+	background-image: url(../../img/cread-address.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 15%;
+	float: left;
+	height: 100%;
+	width: 35%;
+}
+.cread-address>span:nth-child(2){
+	float: right;
+	height: 100%;
+	width: 60%;
+	text-align: left;
+	font-size: 1.5em;
+}
+/*新建收获地址*/
+.cread-new{
+	width: 100%;
+	height: auto;
+	margin: 5px auto;
+	background-color: white;
+}
+.cread-new>li{
+	width: 90%;
+	height: 40px;
+	margin: 5px auto;
+}
+.cread-new>li>span:nth-child(1){
+	float: left;
+	width: 30%;
+	height: 100%;
+	line-height: 40px;
+	text-align: right;
+	font-size: 1.3em;
+	color: #323232;
+}
+.cread-new>li>span:nth-child(2){
+	float: left;
+	width: 68%;
+	height: 100%;
+	text-align: left;
+	line-height: 40px;
+	font-size: 1.3em;
+}
+.cread-new>li>span:nth-child(2)>input{
+	height: 30px;
+	margin-top: 5px;
+	width: 97%;
+	text-align: left;
+	line-height: 30px;
+	font-size: 0.9em;
+}
+.cread-new>li.set-dft>i{
+	background-image: url(../../img/option.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+.cread-new>li.set-dft>i.this{
+	background-image: url(../../img/options.png);
+}
+.cread-new>li.set-dft>span{
+	float: left;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 5px;
+	font-size: 1.1em;
+	color: #666666;
+}
+.save-address{
+	border-radius: 5px;
+	background-color: #c91424;
+	width: 90%;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+	margin: 40px auto;
+	font-size: 1.5em;
+}
+#_city{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1001;
+	display: none;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

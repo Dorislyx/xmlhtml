@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="trimview" content="1.0.0">
+		<meta charset="utf-8" />
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/public/public.css" />
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/shop/goodslist.css"/>
+	</head>
+
+	<body>
+		<section>
+			<link rel="stylesheet" type="text/css" href="App_Themes/css/shop/goodslist.css"/>
+			<header class="goodlstheader">
+				<span class="left" name="back"></span>
+				<span class="center">
+					<input type="search" placeholder="搜索的商品"/>
+				</span>
+				<span class="right"></span>
+			</header>
+			<article class="article art-top50 art-btm0 ">
+				<div class="goodslist_title">
+					<ul>
+						<li name='judje'>最新
+							<!--<span class="all_tab">好评</span>
+							<ul class="all_lst">
+								<li>综合</li>
+								<li>新品</li>
+								<li>评论</li>
+							</ul>-->
+						</li>
+						<li name="sales">销量</li>
+						<li name='prod_price'>价格</li>
+						<li class="noborder">筛选</li>
+					</ul>
+				</div>
+				<div id="iScrollgoodslist" class="top40" style="background-color: #F4F6F8;">
+					<div>
+						<div class="goods_content">
+							<!--<h2>所有商品</h2>-->
+							<ul class="lst">
+								<!--<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<!--<span>500评价</span>-->
+									<!--</div>
+								</li>-->
+								<!--<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>
+								<li>
+									<img src="../App_Themes/img/360.png"/>
+									<div>九阳营养果蔬原汁机 香槟金 低速揉取榨汁机</div>
+									<div>
+										<span class="red">￥2000.00</span>
+										<span>已售1012件 </span>
+										<span>500评价</span>
+									</div>
+								</li>-->
+							</ul>
+							<div id="pullUp">
+								<span class="pullUpIcon"></span>
+								<span class="pullUpLabel">上拉刷新</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		
+		<ul class="select">
+			<li class="down"></li>
+			<li class="up">
+				<div class="select_wrap">
+				<div class="select_wrap_inner" id="iScroll1" >
+				<ul class="select_title">
+					<li>取消</li>
+					<!--<li>筛选</li>-->
+					<li>确定</li>
+				</ul>
+				<ul id="select_list" class="select_list">
+					<li>
+						<span style="font-size: 1.2em; font-weight: bold;">品牌</span>
+						<span>全部</span>
+						<ul id="brand">
+							<li>阿依莲</li>
+							<li>波司登</li>
+							<li>淑女坊</li>
+							<li>海澜之家</li>
+							<li class="noboder">丽宣</li>
+						</ul>
+					</li>
+					<li id="replace">
+						<span>价格</span>
+						<span>全部</span>
+						<ul>
+							<li>￥466</li>
+							<li>￥466</li>
+							<li>￥466</li>
+							<li class="noboder">￥466</li>
+						</ul>
+					</li>
+					<!--<li>
+						<span>类型</span>
+						<span>全部</span>
+						<ul>
+							<li>男装</li>
+							<li>女装</li>
+							<li class="noboder">童装</li>
+						</ul>
+					</li>
+					<li>
+						<span>功能</span>
+						<span>全部</span>
+						<ul>
+							<li>交通</li>
+							<li>清洁</li>
+							<li class="noboder">厨具</li>
+						</ul>
+					</li>
+					<li>
+						<span>容量</span>
+						<span>全部</span>
+						<ul>
+							<li>300升</li>
+							<li>400升</li>
+							<li class="noboder">500升</li>
+						</ul>
+					</li>
+					<li>
+						<span>适用于</span>
+						<span>全部</span>
+						<ul>
+							<li>司机</li>
+							<li>学生</li>
+							<li class="noboder">老人</li>
+						</ul>
+					</li>
+					<li>
+						<span>大家说</span>
+						<span>全部</span>
+						<ul>
+							<li>质量好好</li>
+							<li>快递很快</li>
+							<li class="noboder">很喜欢</li>
+						</ul>
+					</li>-->
+					
+				</ul>
+				<div class="clear_btn">筛 选</div>
+				</div>
+				</div>
+			</li>
+		</ul>
+		<div class="float_tab">
+			<ul>
+				<li id="shopindex"></li>
+				<li id="stringifyindex"></li>
+				<li id="mycart"></li>
+				<li id="userindex"></li>
+			</ul>
+			<span class="control"></span>
+		</div>
+		<script src="../App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/cordova.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/getAjax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/shop/goodslist.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+	</html>

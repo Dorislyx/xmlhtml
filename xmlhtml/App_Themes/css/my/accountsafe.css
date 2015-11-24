@@ -1,0 +1,61 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #f9f9fa;
+}
+.accountsafe>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.accountsafe>span.center{
+	font-size: 1.5em;
+}
+.list2{
+	min-height: 50px;
+	line-height: 50px;
+	border-top: 1px solid #eaeaeb;
+	background: #fff;
+	border-bottom: 1px solid #eaeaeb;
+}
+
+.list2>div{
+	float: left;
+  	background-image: url(../../img/gps2.png);
+  	background-position: 10px center;
+  	background-size: 4%;
+  	background-repeat: no-repeat;
+  	padding-left: 30px;
+  	width: 80%;
+  	font-size: 1.4em;
+}
+.list2>span{
+	float: right;
+  	background-image: url(../../img/nexttwo.png);
+  	background-position: center 19px;
+  	background-size: 28%;
+  	background-repeat: no-repeat;
+  	height: 39px;
+  	width: 10%;
+}
+.list2>div.safe{
+	background-image: url(../../img/lock.png);
+  	background-size: 4%;
+  	background-position: 10px center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+

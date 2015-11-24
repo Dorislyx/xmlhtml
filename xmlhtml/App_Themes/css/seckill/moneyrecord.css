@@ -1,0 +1,66 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+.moneyrecord_header>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 50px;
+}
+.tou span{
+	width: 25%;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.2em;
+	border-bottom: 1px solid #CCCCCC;
+}
+.tou span:nth-child(1) {
+	width: 15%;
+}
+.tou span:nth-child(2) {
+	width: 25%;
+}
+.tou span:nth-child(4) {
+	width: 35%;
+}
+
+.record_lst li{
+	width: 100%;
+	height: 40px;
+}
+
+.record_lst li span{
+	width: 25%;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+.record_lst li span a{
+	text-align: center;
+	padding:2px 5px;	
+	border: 1px solid #000000;
+}
+.record_lst li span:nth-child(1) {
+	width: 15%;
+}
+.record_lst li span:nth-child(2) {
+	width: 25%;
+}
+.record_lst li span:nth-child(4) {
+	width: 35%;
+}
+
+.record_lst li.this span{
+	color: #ca1523;
+	
+}
+.record_lst li.this span a{
+	border-color: #ca1523;
+	color: #ca1523;
+}

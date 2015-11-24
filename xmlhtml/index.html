@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="trimview" content="1.0.0">
+		<meta charset="utf-8" />
+		<link href="App_Themes/css/public/public.css" rel="stylesheet" type="text/css" />
+		<script src="App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script src="App_Themes/js/public/getAjax.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+
+	</head>
+
+	<body>
+		<article style="background:#F4002E ;">
+			<img src="" style="width: 100%; opacity:0.2;" />
+		</article>
+		<script src="App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			window.onload=function(){
+				var server='',
+				welcomepage='',
+					params={};
+				
+				//加载欢迎页图片
+				function welcomePage(){
+					welcomepage=localStorage['welcomeImg'];
+					if(!welcomepage){
+						getwelcomepage();
+					}
+					$('img').attr('src',welcomepage);
+				}
+				welcomePage();
+				
+				//请求欢迎页图片图片
+				function getwelcomepage(){
+					server='index.php';
+					params={
+						'act':'welcome'
+					}
+					getajax.getAction(server,params,function(res){
+						console.log('欢迎图片',res);
+						if(res['code']==200){
+							if(!res['datas']['error']){
+								var data=res['datas'];
+								console.log(welcomepage==data);
+								if(welcomepage==data){
+									$('img').attr('src',welcomepage);
+								}else{
+									localStorage['welcomeImg']=data;
+									$('img').attr('src',data);
+								}
+								
+							}
+						}
+					},function(error){});
+				}
+				getwelcomepage();
+				$('img').animate({
+					opacity:1
+				},1500,function(){
+					$('img').animate({
+						opacity:1
+					},2000,function(){
+						$('img').animate({
+						opacity:0.2
+						},1500,function(){
+							window.location.href='shop/shopindex.html';
+						});
+					});
+				});
+				
+			}
+		</script>
+		
+	</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="trimview" content="1.0.0">
+		<meta charset="utf-8" />
+		<title>商品详情</title>
+        <link rel="stylesheet" type="text/css" href="../App_Themes/css/public/public.css" />
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/shop/shopdetails.css" />
+	</head>
+
+	<body>
+		<section>
+			<header class="shopdetails">
+				<span class="left" name="back"></span>
+				<span class="center">商品详情</span>
+				<span class="right"></span>
+				<span class="right1"></span>
+			</header>
+			<article id="iScrollshopdetails" class="article art-top50 art-btm50 ">
+				<div>
+					<div class="runimg">
+						<ul id="runimg"></ul>
+						<div class="runimg-count" id="originscount"><a>0</a><span>/0</span></div>
+					</div>
+					<div class="details-one">
+						<ul>
+							<li id="shop-details" class="details-p-nps">
+								<span class="rnext">
+									<a id="prodName"> 详细介绍</a>
+									<i></i>
+								</span>
+								<span id="prodAdword"></span>
+								<span class="tprice">
+									当前价格:￥<a id="prodPrice">0</a>
+									<del id="prodOriginPrice">原价:￥ 0</del>
+									<a class="kc">库存数量  <em id="storage">0</em></a>
+								</span>
+							</li>
+							<li id="promotionInfos" class="details-cx">
+								<!--<div>促销</div>
+								<div>
+									<span class="cx-hd">
+										<a>限购</a>
+										<a>购买十件享受优惠</a>
+									</span>
+									<span class="cx-hd">
+										<a>优惠套装</a>
+										<a>最高省300元</a>
+									</span>
+								</div>-->
+							</li>
+							<li id="details-cx" class="details-cx cximg">
+								<div>规格</div>
+								<div class="ggcc" id="guige">
+									<span>请选择</span>
+									<span></span>
+								</div>
+								<i></i>
+							</li>
+							<!--<li class="details-cx cximg">
+								<div>配送</div>
+								<div class="ggcc" id="guige">
+									快递
+								</div>
+								<i></i>
+							</li>-->
+							<!--<li id="paisong" class="details-cx cximg">
+								<div>送至 </div>
+								<div class="ggcc" id="peisong">
+									<span id="cityname">请选择</span>
+									<span></span>
+									<span></span>
+								</div>
+								<i></i>
+							</li>-->
+							<!--<li class="details-cx">
+								<div>运费 </div>
+								<div class="ggcc">
+									<span id="yunf">0 元 </span>
+								</div>
+							</li>-->
+							<li class="details-cx">
+								<div>服务 </div>
+								<div class="ggcc">
+									<span id="spfw"> </span>
+								</div>
+							</li>
+							<!--<li class="details-cx sd cximg" id="details-cx1">
+								<span>评价晒单</span>
+								<span>好评 <a id="goodCommentNum">0%</a>&nbsp;&nbsp;&nbsp;
+									<a id="countCommentNum">0</a>人评论</span>
+							</li>-->
+							<li name="pl" class="sd pl" style="display:none;">
+								<div>
+									<span class="_left">
+										<img src="./App_Themes/img/star.png"/>
+										<img src="./App_Themes/img/star.png"/>
+										<img src="./App_Themes/img/star.png"/>
+									</span>
+									<span class="_right"> </span>
+								</div>
+								<div class="pl-txt"></div>
+							</li>
+							<li class="gmzx pl">
+								<a>购买咨询</a>
+							</li>
+							<li id="shophomes" class="pl pname">
+								<div>
+									<span id="storeName"></span>
+									<!--<span>主营家庭厨房用品</span>-->
+								</div>
+								<i></i>
+								<span></span>
+							</li>
+							<li class="lxhf pl">
+								<a href="tel:10086">联系客服</a>
+							</li>
+							<li class="nbuy pl mgtop20">
+								<span class="nbuys">浏览该商品的用户最终购买</span>
+								<span class="zzgm">
+									<!--<a href="shopdetails.html"></a>
+									<a href="shopdetails.html"></a>
+									<a href="shopdetails.html"></a>-->
+									<ul class="llgm" id="llgm">
+										<!--<li>
+											<span>九阳官方旗</span>
+											<span>
+												<img src="./App_Themes/img/dome11.png" />
+											</span>
+											<span>￥232.2</span>
+										</li>
+										<li>
+											<span>九阳官方旗</span>
+											<span>
+												<img src="./App_Themes/img/dome11.png" />
+											</span>
+											<span>￥232.2</span>
+										</li>
+										<li>
+											<span>九阳官方旗</span>
+											<span>
+												<img src="./App_Themes/img/dome11.png" />
+											</span>
+											<span>￥232.2</span>
+										</li>-->
+									</ul>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</article>
+
+			<footer class="shopdetailsfoot">
+				<ul>
+					<li name="getaddmyc">
+						<span></span>
+						<span>收藏</span>
+					</li>
+					<li name="thisbuy">
+						<span></span>
+						<span>立刻购买</span>
+					</li>
+					<li class="addcart">
+						<span>加入购物车</span>
+					</li>
+				</ul>
+			</footer>
+		</section>
+	   <ul class="hidedetails">
+			<li id="hideone" class="one"></li>
+			<li class="two">
+				<span>
+					<a></a>
+					<a>首页</a>
+				</span>
+				<span>
+					<a></a>
+					<a>搜索</a>
+				</span>
+				<span>
+					<a></a>
+					<a>分类</a>
+				</span>
+				<span>
+					<a></a>
+					<a>我的</a>
+				</span>
+				
+			</li>
+			<li class="three">
+				<div style="width: 100%;height: 100%;" id="three">
+					<div id="getHistViewList"></div>
+					<div>
+			</li>
+			<li class="four">
+				<div class="four-one">
+					<span>
+						<img id="shopdimgs" src="../App_Themes/img/dome11.png" />
+					</span>
+					<span>
+						<a id="shopdprice">￥0.00</a>
+						<a id="shopdid">商品编号:</a>
+					</span>
+				</div>
+				<div class="four-two" id="four-two">
+					<span>颜色</span>
+					<span class="color-lst">
+						<a></a>
+						<a></a>
+						<a></a>
+						<a></a>
+					</span>
+					<span>数量</span>
+					<span class="number-n">
+						<a id="down"></a>
+						<a>
+							<input type="text" id="numbers" value="1" />
+						</a>
+						<a id="add"></a>
+					</span>
+					
+				</div>
+				<div class="four-two"><span class="four-btn">确 定</span></div>
+			</li>
+		</ul>
+		<script src="../App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/cordova.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/Touch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/getAjax.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../App_Themes/js/public/PinYin.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../App_Themes/js/shop/shopdetails.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

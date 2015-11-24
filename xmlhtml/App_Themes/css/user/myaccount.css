@@ -1,0 +1,134 @@
+
+
+@charset "utf-8";
+.myaccount>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.user-lst>li>span:nth-child(1){
+	margin-left: 10px;
+	width: auto;
+	font-size: 1.2em;
+	font-family: "微软雅黑";
+}
+.user-lst>li>span:nth-child(2){
+	float: right;
+	width: auto;
+	margin-right: 5px;
+	background-image:none;
+}
+.user-lst>li>span:nth-child(2)>i{
+	float: right;
+	width: 20px;
+	height: 50px;
+	background-image: url(../../img/nexttwo.png);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.user-lst>li>span:nth-child(2)>a{
+	float: left;
+	font-size: 0.9em;
+}
+.hides{
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	display: none;
+	position: absolute;
+	z-index: 998;
+}
+.hides>.hidedetils{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	opacity: 0.1;
+}
+.hides>.hidecontext{
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 999;
+	position: absolute;
+	height: 222px;
+	background-color: white;
+}
+.hidecontext>span{
+	border: 1px solid #3E6C52;
+	float: left;
+	width: 80%;
+	height: 40px;
+	border-radius: 10px;
+	margin: 5px 10%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.9em;
+}
+.hidecontext>span:not(.input):hover{
+	background-color: #3E6C52;
+	color: white;
+}
+.hidecontext>span.input>input{
+	width: 90%;
+	height: 35px;
+	float: left;
+	margin: 1.5px 2.5%;
+	border-radius: 10px;
+	text-align: left;
+	line-height: 35px;
+	padding-left: 10px;
+	font-size: 0.7em;
+}
+.hidecontext>span.input>span{
+	float:right;
+	width:28%;
+	height:50%;
+	color:#fff;
+	background:red;
+	margin-top:10px;
+	margin-right: 2px;
+	line-height:20px;
+	border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

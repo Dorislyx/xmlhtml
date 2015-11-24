@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="trimview" content="1.0.0">
+		<meta charset="utf-8" />
+		<title>设置发票信息</title>
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/public/public.css" />
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/order/Invoice.css" />
+
+	</head>
+
+	<body>
+
+		<section>
+			<header>
+				<span class="left" name="back"></span>
+				<span class="center">设置发票信息</span>
+				<span class="right"></span>
+			</header>
+			<article id="iScrollInvoice" class="article art-top50 art-btm0">
+				<div>
+					<div class="shoptot">飞利浦官方旗舰店</div>
+					<div class="invoice-type">
+						<span class="onte">发票类型</span>
+						<span class="teos" id="teos">
+						  <a name="0" class="this">不开发票</a>
+						  <a name="1">普通发票</a>
+						  <a name="2">增值税发票</a>
+						</span>
+					</div>
+					<div style="display:none" id="invoice-three">
+						<div class="invoice-type" id="inv-type">
+							<span class="onte">发票抬头</span>
+							<span class="fp-t">
+						<a>单位名称</a>
+						<a>
+							<input id="invname" type="text" />
+						</a>
+					</span>
+					<div id="inv-types" style="width: 100%;">
+							<span class="fp-t">
+						<a>注册地址</a>
+						<a>
+							<input type="text" id="reg-address" />
+						</a>
+					</span>
+							<span class="fp-t">
+						<a>注册电话</a>
+						<a>
+							<input type="text" id="reg-phone" />
+						</a>
+					</span>
+							<span class="fp-t">
+						<a>纳税人识别号</a>
+						<a>
+							<input id="sbnumber" type="text" />
+						</a>
+					</span>
+							<span class="fp-t">
+						<a>开户银行</a>
+						<a>
+							<input type="text" id="depositbank" />
+						</a>
+					</span>
+							<span class="fp-t">
+						<a>银行账号</a>
+						<a>
+							<input type="text" id="banknumber" />
+						</a>
+					</span>
+					</div>
+						</div>
+						<div class="invoice-type" 　id="inv-value">
+							<span class="onte bdcl">发票内容</span>
+							<span class="seos" id="seos">
+								<a class="this"><i></i>明细</a>
+								<a><i></i>办公用品</a>
+								<a><i></i>电脑配材</a>
+								<a><i></i>耗材</a>
+							</span>
+						</div>
+						
+					</div>
+					<div class="btn-invoice" id="btn-invoice">确&nbsp;定</div>
+				</div>
+			</article>
+		</section>
+		<script src="../App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/cordova.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/Touch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/getAjax.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../App_Themes/js/order/Invoice.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

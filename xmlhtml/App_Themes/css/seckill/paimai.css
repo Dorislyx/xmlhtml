@@ -1,0 +1,152 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+.paimai_header>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 50px;
+}
+.runimg {
+	width: 100%;
+	height: 150px;
+	position: relative;
+	z-index: 110;
+}
+.runimg>ul {
+	width: 400%;
+	height: 100%;
+}
+.runimg>ul>li {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.runimg>ul>li>img {
+	width: 100%;
+	height: 100%;
+}
+.runindex {
+	width: 100%;
+	height: 15px;
+	position: relative;
+	z-index: 110;
+	margin-top: -15px;
+}
+.runindex>a {
+	float: left;
+	height: 12px;
+	width: 12px;
+	margin-left: 2%;
+	border-radius: 50%;
+	background-color: #808080;
+}
+.runindex>a:nth-child(1) {
+	margin-left: 45%;
+}
+.runindex>a.this {
+	background-color: #FF0000;
+}
+.time{
+	width: 100%;
+	height: 50px;
+	
+}
+.time li{
+	width: 33.3%;
+	background-color: #383838;	
+	float: left;
+	height: 50px;	
+}
+.time li.this{
+	background-color: #c91523;
+}
+.time li span{
+	width: 100%;
+	float: left;
+	line-height: 50px;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-align: center;
+}
+.time li span:nth-child(1){
+	
+	font-weight: bold;
+	font-size: 1.5em;
+	
+}
+.goods_lst{
+	padding-top: 10px;
+}
+.goods_lst li{
+	width: 44%;
+	float: left;
+	border: 1px solid #CCCCCC;
+	margin-left: 4%;
+	margin-bottom: 10px;
+	min-height: 190px;	
+}
+.goods_lst p{
+	line-height: 25px;
+	background-color: #7f7f7f;
+	text-align: center;
+	color: #FFFFFF;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.goods_lst p.name{
+	background-color:#ffffff;
+	color: #000000;
+}
+.goods_lst .pic{
+	width: 100%;
+	height: 110px;
+}
+.goods_lst .pic img{
+	width: 100%;
+	height: 100%;
+}
+
+.price{
+	margin-top: 10px;
+	width: 100%;
+	float: left;
+	padding-left: 2%;
+}
+
+.price span:first-child{
+	float: left;
+	line-height:24px;
+	color: #c91523;
+}
+.price span:last-child{
+	float: right;
+	width: 30%;
+	height:24px;
+	line-height: 24px;
+	text-align: center;
+	margin-right: 3px;
+	background-color:#c91523 ;
+	color: #fff;
+	
+}
+.wantpai>span{
+	padding-left: 2%;
+	height:24px;
+	
+	line-height: 24px;
+}
+/*.want{
+	width: 25%;
+	float: right;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1px 2px;
+	margin-top: 5px;
+	margin-right: 3px;
+	background-color:#c91523 ;
+}*/

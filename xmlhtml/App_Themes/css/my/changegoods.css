@@ -1,0 +1,126 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background: #f2f2f2;
+}
+.changegoods>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.changegoods>span.center{
+	font-size: 1.5em;
+}
+.sent_method{
+	margin-top: 10px;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	background: #fff;
+	min-height: 60px;
+}
+.sent_method>p{
+	margin: 10px;
+	font-size: 1.2em;
+}
+.sent_method>span{
+	display: inline-block;
+  	width: 16%;
+  	height: 20px;
+  	line-height: 20px;
+  	text-align: center;
+  	border: 1px solid #ccc;
+  	margin: 7px;
+	color:#a1a1a1 ;
+	padding: 3px;
+}
+.sent_method>span.current{
+	border-color:#ff2929 ;
+	color:#ff2929  ;
+}
+.sent_method>b{
+	float: right;
+  	width: 40px;
+  	height: 25px;
+  	background-image: url(../../img/arrow2.png);
+  	background-repeat: no-repeat;
+  	background-size: 50%;
+  	background-position: right 15px bottom;
+}
+.company{
+	margin: 0;
+	border-top: 0;
+}
+.logistics{
+	margin: 0;
+	border-top: 0;
+	min-height: 80px;
+}
+.logistics>input{
+	width: 80%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-left: 8px;
+	border-radius: 3px;
+	padding-left: 10px;
+}
+.decoration{
+	margin: 0;
+	border-top: 0;
+	min-height: 80px;
+	
+}
+.decoration>textarea{
+	width: 80%;
+  	height: 59px;
+  	line-height: 24px;
+  	border: 1px solid #ccc;
+  	border-radius: 3px;
+ 	padding-left: 10px;
+  	margin-left: 8px;
+  	margin-bottom: 15px;
+}
+.picture{
+	margin: 0;
+	border-top: 0;
+	min-height: 200px;
+
+}
+.evidence{
+	overflow: visible;
+	width: 50px;
+  	height: 50px;
+  	border: 1px solid #ccc;
+  	border-radius: 5px;
+  	margin-left: 20px;
+  	padding: 10px;
+  	position: relative;
+}
+.evidence>img{
+	width: 100%;
+}
+.evidence>.uploading{
+	position: absolute;
+  	bottom: -7px;
+  	right: -7px;
+  	background-image: url(../../img/uploadingA.png);
+  	background-repeat: no-repeat;
+  	width: 30px;
+  	height: 30px;
+  	background-size: 100%;
+}
+.evidence+div{
+	margin:20px 10px;
+	line-height: 24px;
+}
+
+
+
+
+
+

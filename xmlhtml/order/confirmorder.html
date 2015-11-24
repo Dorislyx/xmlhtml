@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="trimview" content="1.0.0">
+		<meta charset="utf-8" />
+		<title>确认订单</title>
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/public/public.css" />
+		<link rel="stylesheet" type="text/css" href="../App_Themes/css/order/confirmorder.css" />
+	</head>
+
+	<body>
+		<section>
+			<header>
+				<span class="left" name="back"></span>
+				<span class="center" style="font-size: 1.5em;">确认订单</span>
+				<span class="right"></span>
+			</header>
+			<article id="iScrollconfirmorder" class="article art-top50 art-btm50 auto">
+				<div>
+					<div id="pullDown">
+						<span class="pullDownIcon"></span>
+						<span class="pullDownLabel">下拉刷新</span>
+					</div>
+					<div class="this-address mgtp20">
+						<div class="rnext" id="rnext">
+							<span class="ads">
+						  		<a id="consigneeName">姓名</a>
+						  		<i></i>
+						  		<a id="consigneeMobile">手机号</a>
+							</span>
+							<span class="ad-cts" id="consigneeAddress">地址详细</span>
+						</div>
+					</div>
+					<div class="order-coms">
+						<ul class="lst">
+							<li id="order-shop">
+								<h2>飞利浦官方旗舰店</h2>
+								<div class="projiec-desc">
+									<ul class="p-one">
+										<li>
+											<img src="./App_Themes/img/360.png" />
+										</li>
+										<li class="p-two">
+											<span>飞利浦空气净化器 EK1457 30W99%强效去甲醛…… </span>
+											<span>X1</span>
+										</li>
+										<li class="p-price rnext">
+											￥2000.00
+										</li>
+									</ul>
+								</div>
+								<div class="zf-ps" id="zf-ps">
+									<span class="left">支付及配送 </span>
+									<span class="right">
+										<select>
+											<option>在线支付</option>
+											<option>货到付款</option>
+										</select>
+											<!--<a>货到付款 </a>-->
+											<!--<a>普通快递<em>10.00元</em></a>-->
+										</span>
+								</div>
+								<span class="ddly">订单留言 </span>
+								<div class="m-textare">
+									<textarea maxlength="50" placeholder="限50字以内"></textarea>
+								</div>
+								<div class="count-price">共计<a id="countproduct">1</a>件商品 合计：<a>￥2010.00</a>
+								</div>
+							</li>
+							
+							
+							
+							
+						</ul>
+					</div>
+					<div class="fp-tt mgtp20">
+						<div class="zf-ps" id="openInvoice">
+							<span class="left ">发票信息  </span>
+							<span class="right zf-ps-right rnext">
+											<a id="inv-type">选择发票</a>
+											<a id="inv-value"></a>
+										</span>
+						</div>
+						<div class="zf-ps" id="mycoupon">
+							<span class="zf-ps-left left">礼卷 <a id="couponnum">0张可用</a></span>
+							<span class="right zf-lq-right rnext" id="noused">未使用</span>
+						</div>
+						<!--<div class="zf-ps bdbt">
+							<span class="zf-ps-left left">
+								积分
+								<a class="jfdk">可用3000积分,抵<em>￥5.00</em></a>
+							</span>
+							<span class="right zf-lq-right r-off1">
+								
+							</span>
+						</div>-->
+						<div class="zf-ps">
+							<span class="zf-ps-left left" id="sumprice">商品金额 </span>
+							<span class="right zf-lq-right" id="prices" style="color: #FF4400;">￥0.00</span>
+						</div>
+						<!--<div class="zf-ps">
+							<span class="zf-ps-left left">抵扣  </span>
+							<span class="right zf-lq-right" style="color: #FF4400;">￥0.00</span>
+						</div>-->
+						<div class="zf-ps">
+							<span class="zf-ps-left left">配送方式</span>
+							<span class="right zf-lq-right">快递</span>
+						</div>
+						<!--<div class="zf-ps">
+							<span class="zf-ps-left left">运费</span>
+							<span class="right zf-lq-right" style="color: #FF4400;" id="yunf">￥0.00</span>
+						</div>-->
+					</div>
+				</div>
+			</article>
+			<footer class="confirmorderfoot">
+				<ul>
+					<li class="adprice">实付款:&nbsp;&nbsp;￥0.00</li>
+					<li style="visibility:hidden;">获得积分:500</li>
+					<li name="addOrder">提交订单</li>
+				</ul>
+			</footer>
+		</section>
+		<script src="../App_Themes/js/public/jquery183.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/cordova.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/Touch.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../App_Themes/js/public/getAjax.js" type="text/javascript" charset="utf-8"></script>
+	    <script src="../App_Themes/js/order/confirmorder.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

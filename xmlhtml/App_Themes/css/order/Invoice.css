@@ -1,0 +1,189 @@
+
+@charset "utf-8";
+body{
+	background-color: #F2F2F2;
+}
+.left {
+background-image: url(../../img/back.png);
+background-position: center;
+background-size: 50%;
+background-repeat: no-repeat;
+}
+.center{
+	font-size: 1.5em;
+}
+.shoptot{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 50px;
+	font-size: 1.5em;
+	color: #323232;
+}
+.invoice-type{
+	margin-top: 20px;
+	width: 100%;
+	min-height: 100px;
+	height: auto;
+	padding-bottom: 10px;
+	border-top: 1px solid #D8D8D8;
+	background-color: white;
+}
+.onte{
+	width: 100%;
+	float: left;
+	color: #999999;
+	font-size: 1.4em;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.teos{
+	float: left;
+	margin-left: 10px;
+	width: 94%;
+	height: 50px;
+	margin-top: 10px;
+}
+.teos>a{
+	border: 1px solid #999999;
+	border-radius: 5px;
+	padding: 9px 15px;
+	margin-left: 10px;
+	margin-top: 7px;
+	float: left;
+	font-size: 1.1em;
+	color: #999999;
+}
+.teos>a.this{
+	border: 1px solid #FF4400;
+	color: #FF4400;
+}
+.fp-t{
+	border: 1px solid #D8D8D8;
+	margin-left: 10px;
+	width: 90%;
+	float: left;
+	height: 35px;
+	margin-top: 10px;
+}
+.fp-t>a{
+	float: left;
+}
+.fp-t>a:nth-child(1){
+	height: 100%;
+	padding: 0px 5px;
+	line-height: 30px;
+	font-size: 1.5em;
+	color: #323232;
+}
+.bdcl{
+	border-bottom: 1px solid #D8D8D8;
+	padding-bottom: 10px;
+}
+.fp-t>a:nth-child(2){
+	float: right;
+	width: 55%;
+	height: 100%;	
+}
+.fp-t>a:nth-child(2)>input{
+	float: left;
+	width: 100%;
+	height: 30px;
+	font-size: 1.3em;
+}
+.seos{
+	float: left;
+	width: 100%;
+}
+.seos>a{
+	width: 95%;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1.3em;
+	color: #999999;
+	margin-top: 15px;
+}
+.seos>a>i{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 10px;
+	background-image: url(../../img/option.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+}
+.seos>a.this>i{
+	background-image: url(../../img/options.png);
+}
+
+.btn-invoice{
+	height: 50px;
+	width: 80%;
+	margin: 10px auto;
+	border-radius: 5px;
+	background-color: #c91424;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

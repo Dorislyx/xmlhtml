@@ -1,0 +1,115 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #F2F2F2;
+}
+.order-tracking>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.order-tracking>span.center{
+	font-size: 1.5em;
+}
+
+.order_tracking_wrap{
+	width: 94%;
+	margin: 15px auto;
+	background:#fafafa ;
+	border-radius: 3px;
+	color:#a0a0a0 ;
+	-webkit-box-shadow: 2px 0px 7px #808080;
+	box-shadow: 2px 0px 7px #808080;
+	-moz-box-shadow: 2px 0px 7px #808080;
+	-ms-box-shadow: 2px 0px 7px #808080;
+	-o-box-shadow: 2px 0px 7px #808080;				
+}
+.order_tracking_title{
+	height: 100px;
+	background: #fff;
+	border-bottom: 1px solid #cecece;
+	padding-left: 20px;
+}
+.order_tracking_title p{
+	font-size: 1.2em;
+	color: #a0a0a0;
+	line-height: 30px;
+}
+.order_tracking li>div:nth-of-type(1){
+	width: 58px;
+  	float: left;
+	padding-top: 16px;
+
+}
+.order_tracking li{
+	background: url(../../img/dot.png);
+  	background-repeat: repeat-y;
+  	background-position-x: 29px;
+
+}
+.order_tracking li:nth-of-type(1)>div:nth-of-type(1){
+	width: 58px;
+  	float: left;
+	line-height: 60px;
+	padding-top: 27px;
+}
+.order_tracking li>div:nth-of-type(1) a{
+	display: inline-block;
+	border: 2px solid #fafafa;
+	border-radius: 60%;
+	width: 15px;
+	height: 15px;
+	background: #999;
+	margin-left: 21.5px;
+}
+.order_tracking li>div:nth-of-type(2){
+	float: right;
+	width: 80%;
+	border-bottom: 1px solid #e8e8e8;
+}
+.order_tracking li>div:nth-of-type(1) .current{
+	display: inline-block;
+  	width: 30px;
+  	height: 30px;
+  	background: url(../../img/gps.png);
+  	background-repeat: no-repeat;
+  	background-size: 61%;
+  	background-position: center;
+  	border: 0;
+  	background-color: #fafafa;
+  	margin-left: 14px;
+}
+.order_tracking li>div:nth-of-type(2) p{
+	padding-top: 10px;
+  	line-height: 22px;
+  	font-size: 1.2em;
+}
+ .black{
+ 	color:#454545 ;
+ 	font-size: 1em;
+ }
+.order_tracking li>div:nth-of-type(2) p.nopadding{
+	padding-top: 0;
+	  line-height: 30px;
+	    font-size: 1.1em;
+}
+.red{
+	color: #ff4502;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

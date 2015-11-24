@@ -1,0 +1,244 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+.iphone6_header>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 50px;
+}
+.banner_run{
+	width: 100%;
+	height:150px;	
+}
+.banner_run ul{
+	width: 300%;
+	height: 100%;
+}
+.banner_run ul>li{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+.banner_run ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.banner_run_index{
+	width: 100%;
+	height: 30px;
+	position: relative;
+	margin-top: -30px;
+	background-color: #5f5f5f;	
+}
+.banner_run_index span{
+	color: #FFFFFF;
+	float: left;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+.banner_run_index span:first-child{
+	width: 65%;
+	text-indent: 10px;	
+}
+.banner_run_index span:last-child{
+	width: 30%;
+	text-align: right;
+	padding-right: 5px;
+	background-image: url(../../img/xin.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: left center;	
+}
+.banner_run_index span:last-child a{
+	font-size: inherit;
+	color: inherit;
+}
+.detail{
+	width: 100%;
+	height: 60px;
+	margin-top: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.detail .zuo{
+	width: 66%;
+	float: left;
+	height: 100%;
+	padding-left: 5px;
+	background-image: url(../../img/line.png);
+	background-repeat: no-repeat;
+	background-size: 1px 50px;
+	background-position: right center;	
+}
+
+.detail span{	
+	font-size: 1.1em;
+	line-height: 30px;
+}
+.detail span em{
+	font-size: inherit;
+	font-weight: 900; 
+}
+.detail .zuo span:nth-child(1),.zuo span:nth-child(2){
+	width: 50%;
+	float: left;	
+}
+.detail .you{
+	width: 32%;
+	float: right;
+	height: 100%;
+}
+.detail .you>span{
+	width: 100%;
+	float: left;
+	text-align: center;
+	
+}
+.detail .you>span:last-child{
+	width: 60%;
+	height: 25px;
+	color: #FFFFFF;
+	line-height: 25px;
+	background-color: #c91523;
+	margin-left: 20%;	
+}
+/*.record{
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 10px;
+	padding-top: 5px;	
+}*/
+.re_top{
+	width: 100%;
+	height: 25px;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+.re_top span{
+	font-size: 1.2em;
+	height: 25px;
+}
+.re_top span:nth-child(1){
+	padding-left: 10px;
+}
+.re_top span:nth-child(2){
+	padding:  2px 15px;
+	color: #FFFFFF;
+	line-height: 25px;
+	margin-left: 15px;
+	background-color: #c91523;	
+}
+.nobody{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	color: #9b9b9b;
+	padding-top: 15px;
+	font-size: 1.2em;
+}
+.serve{
+	line-height: 40px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+}
+.fen span{
+	font-size: 1.2em;
+	line-height: 30px;	
+}
+.fen span a{
+	font-size: inherit;
+	color: #c91523;
+	padding-left: 3px;
+	font-weight: bold;	
+}
+.fen span:nth-child(1){
+	width: 100%;
+	float: left;
+	margin-left: 10px;
+}
+.fen span:nth-child(2){
+	margin-left: 10px;
+}
+.fen span:nth-child(3),span:nth-child(4){
+	margin-left: 20px;
+}
+.tab li{
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	width: 49.5%;
+	float: left;
+	height: 30px;		
+}
+.tab li:nth-child(2){
+	border-left: 1px solid #CCCCCC;
+}
+.tab li span{
+	background-image: url(../../img/xing.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: left center;
+	line-height: 30px;
+	font-size: 1.2em;
+	margin-left: 25%;
+	padding-left: 25px;
+}
+.tab li:last-child span{	
+	background-image: url(../../img/shou.png);	
+}
+.bot{
+	width: 100%;
+	height:30px;
+	margin-top: 30px;
+	border-top: 1px solid #CCCCCC;	
+}
+.bot span{
+	line-height: 30px;
+	font-size: 1.2em;
+	height: 30px;
+	display: block;
+}
+.bot span a{
+	font-size: inherit;
+	color: #c91523;
+}
+
+.bot span:first-child{
+	width: 48%;
+	float: left;	
+	padding-left: 2%;	
+}
+.bot span:nth-child(2){
+	width: 48%;
+	float: left;
+	text-align: right;
+	padding-right: 2%;		
+}
+.btn{
+	width: 80%;
+	clear: both;
+	background-color: #c91523;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+.btn a{
+	font-size: inherit;
+	color: inherit;
+}
+
+
+
+
+
+
+

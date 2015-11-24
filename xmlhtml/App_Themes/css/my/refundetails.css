@@ -1,0 +1,128 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+/*body{
+	background: #f2f2f2;
+}*/
+
+.refundetails>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.refundetails>span.center {
+	font-size: 1.5em;
+}
+.apply {
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+}
+.apply>div:nth-of-type(1) {
+	min-height: 40px;
+	line-height: 40px;
+}
+.apply>div:nth-of-type(1)>span:nth-of-type(1) {
+	float: left;
+	font-size: 1.2em;
+	margin-left: 10px;
+}
+.apply>div:nth-of-type(1)>span:nth-of-type(2) {
+	float: left;
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+.apply>div:nth-of-type(2) {
+	min-height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+.apply>div:nth-of-type(2)>span {
+	font-size: 1em;
+	margin-right: 8px;
+}
+.apply>div:nth-of-type(2)>span.red {
+	color: #ff4400;
+}
+.serverdetail {
+	min-height: 150px;
+	line-height: 40px;
+}
+.serverdetail>ul>li {
+	border-bottom: 1px solid #ccc;
+	/*margin-left: 10px;*/
+}
+.serverdetail>ul>li:nth-of-type(1) {
+	background: #f7f7f7;
+}
+.serverdetail>ul>li>span:nth-of-type(1) {
+	float: left;
+	margin-left: 10px;
+}
+.serverdetail>ul>li>span:nth-of-type(2) {
+	float: right;
+	margin-right: 20px;
+}
+.serverdetail>ul>li:nth-of-type(6) {
+	min-height: 45px;
+}
+.serverdetail>ul>li:nth-of-type(6).showpic {
+	min-height: 120px;
+}
+/*.serverdetail>ul>li:nth-of-type(7) {
+	min-height: 120px;
+}*/
+.refundmoney {
+	min-height: 95px;
+}
+.tracking>ul>li>span:nth-of-type(2) {
+	float: left;
+	margin-right: 10px;
+	margin-left: 6px;
+}
+.tracking>ul>li>span:nth-of-type(3) {
+	float: right;
+	margin-right: 20px;
+}
+.tracking>ul>li:nth-of-type(1) {
+	min-height: 45px;
+	background-image: url(../../img/nexttwo.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-position: center;
+	background-position-x: 288px;
+	background-size: 3%;
+}
+.showpic>span {
+	display: block;
+	width: 100%;
+}
+.showpic>div {
+	width: 25%;
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 63px;
+	margin-left: 15px;
+}
+.showpic>div>img {
+	width: 100%;
+	height: 100%;
+}
+.goods-name>span {
+	display: block;
+	min-width: 40px;
+	line-height: 40px;
+	font-size: 1.2em;
+	padding: 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+.goods-name>span:nth-child(1) {
+	background: #f7f7f7;
+}
+.goods-name>span:nth-child(2) {
+	line-height: 30px;
+}

@@ -1,0 +1,101 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #f3efe8;
+}
+.appraisestore>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.appraisestore>span.center{
+	font-size: 1.5em;
+}
+.appraise_store{
+	padding: 10px 10px 0;
+}
+
+.appraise_store>img{
+	float:left;
+	border:1px solid #000;
+}
+.appraise_store>div:nth-of-type(1){
+	width:60%;
+	float:left;
+	padding-left:20px;
+}
+.appraise_store>div:nth-of-type(1) p{
+	line-height: 32px;
+	font-size: 1.5em;
+}
+.appraise_store>div:nth-of-type(1) span{
+	float:right;
+	padding:4px;
+	border:1px solid red;
+	border-radius:5px;
+	color:red;
+	margin-top: 10px;
+}
+.raise_severice{
+	height:40px;
+	width:90%;
+	margin: 10px auto 0;
+	font-size: 1.4em;
+	/*line-height: 50px;*/
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	
+}
+.raise_severice span{
+	float:right;
+	color:#c6c6c6;
+	font-weight:normal;
+}
+.raise_score{
+	padding:0 0 0 20px;
+}
+.appraise{
+	width: 96%;
+	margin:10px auto 5px;
+	background: #fff;
+	}
+.appraise>span{
+	float: left;
+	width: 32%;
+	height:35px;
+	line-height: 35px;
+	font-size: 1.2em;
+	
+}
+.appraise>div{
+	float: right;
+	width: 68%;
+	
+}
+.appraise>ul li{
+	width: 15%;
+  	height: 35px;
+  	background-image: url(../../img/star1.png);
+  	background-position: center;
+  	background-size: 60%;
+  	background-repeat: no-repeat;
+  	float: left;
+}
+.appraise>ul .current{
+	background-image: url(../../img/star.png);
+}
+.publish_raise{
+	width:90%;
+	margin-top: 30px;
+}
+.publish_raise>span{
+	float:right;
+	padding:4px;
+	border:1px solid red;
+	border-radius:5px;
+	color:red;
+}

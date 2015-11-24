@@ -1,0 +1,88 @@
+@charset "utf-8";
+body {
+	background-color: #F4F6F8;
+}
+.aboutheader>span.center {
+
+font-size: 1.4em;
+}
+.aboutheader>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+/*header>span.right{
+	background-image: url(../../img/fx.png);
+  	background-repeat: no-repeat;
+  	background-size: 38%;
+  	background-position: right center;
+  	background-position-x: 20px;
+} */
+.logo{
+	height: 250px;
+	text-align: center;
+	
+}
+.logo>img:nth-of-type(1){
+	width: 168px;
+  	margin: 5px;
+}
+.logo>img:nth-of-type(2){
+	width: 140px;
+}
+.logo>p{
+	margin-top: 10px;
+	font-size: 1em;
+	color: #999;
+}
+.logo>b{
+	font-size: 2.2em;
+	margin-top: 10px;
+	display: inline-block;
+}
+.menu{
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	/*background: #fff;*/
+}
+.menu>li{
+	border-bottom: 1px solid #ccc;
+  	height: 45px;
+  	line-height: 45px;
+  	padding: 0 10px;
+ 	 font-size: 1.2em;
+  	/*background-image: url(../../img/nexttwo.png);*/
+  	background-repeat: no-repeat;
+  	background-position: right center;
+  	background-size: 3%;
+  	background-position-x: 295px;
+}
+.servermenu>li{
+	width: 50%;
+  	min-height: 118px;
+  	float: left;
+  	/*margin-left: 32px;*/
+  	text-align: center;
+  	margin-top: 12px;
+}
+.servermenu>li>p{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.servermenu>li>span{
+	font-size: 1.2em;
+	font-family: "黑体";
+}
+.servermenu>li>p{
+	color: #999;
+	line-height: 24px;
+}
+
+
+
+
+
+

@@ -1,0 +1,247 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+body {
+	background-color: #F2F2F2;
+}
+.shophome>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.shophome>span.center {
+	left: 45px;
+}
+.shophomefoot>ul {
+	width: 100%;
+}
+.shophomefoot>ul>li {
+	width: 50%;
+	float: left;
+}
+.shophomefoot>ul>li:nth-child(1) {
+	background-image: url(../../img/lxdp.png);
+	background-size: 80%;
+}
+.shophomefoot>ul>li:nth-child(2) {
+	background-image: url(../../img/jrsc.png);
+	background-size: 80%;
+}
+.Search-one {
+	background-color: white;
+	float: left;
+	height: 30px;
+	width: 95%;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.Search-one>span {
+	float: right;
+	height: 100%;
+}
+.Search-one-img {
+	width: 15%;
+	background-image: url(../../img/eachs.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+.Search-one-ipt {
+	width: 83%;
+}
+.Search-one-ipt>input {
+	float: left;
+	height: 30px;
+	width: 98%;
+	text-align: left;
+	line-height: 30px;
+	font-size: 1.2em;
+	color: #999999;
+}
+.home-title {
+	width: 100%;
+	height: 50px;
+	float: right;
+	/*background-image: url(../../img/dplogo.png);
+	background-position: left 10px center;
+	background-repeat: no-repeat;
+	background-size: 25%;*/
+	
+	background-color: white;
+}
+.title-name {
+	width: 68%;
+	height: 100%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.title-name>a {
+	float: left;
+	height: 50%;
+	width: 100%;
+}
+.title-name>a:nth-child(1) {
+	color: #323232;
+	font-size: 1.5em;
+	line-height: 22px;
+	height: 22px;
+}
+.title-name>a:nth-child(2) {
+	color: #575757;
+	font-size: 1.2em;
+	line-height: 20px;
+}
+.rnext {
+	background-image: url(../../img/set-right.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 5%;
+}
+.stringify-lst {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+}
+.stringify-lst>ul {
+	width: 100%;
+	height: 50px;
+	background-image: url(../../img/stringify-lst.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	margin-top: 10px;
+}
+.stringify-lst>ul>li {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.stringify-lst>ul>li>span {
+	float: left;
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	line-height: 25px;
+	color: #323232;
+}
+.stringify-lst>ul>li>span:nth-child(1) {
+	font-size: 1.5em;
+}
+.share {
+	background-image: url(../../img/share.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25%;
+}
+.img-one {
+	width: 100%;
+	min-height: 110px;
+	height: auto;
+	background-color: white;
+}
+.img-one>span {
+	width: 95%;
+	height: auto;
+	float: left;
+	margin: 5px auto;
+	margin: 2.5%;
+}
+.img-one>span>img {
+	width: 100%;
+}
+.all-lst {
+	width: 95%;
+	height: auto;
+	margin: 0px auto;
+	background-color: white;
+	margin-top: 20px;
+	min-height: 200px;
+}
+.all-desc {
+	float: left;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	font-size: 1.5em;
+	color: #323232;
+	width: 95%;
+	margin-left: 2.5%;
+}
+.lst {
+	width: 100%;
+	height: auto;
+}
+.lst>li {
+	border: 1px solid #ECECEC;
+	width: 45%;
+	height: 180px;
+	float: left;
+	margin: 2%;
+	border-radius: 5px;
+}
+.lst>li>span {
+	float: left;
+	width: 99%;
+}
+.lst>li>span:nth-child(1) {
+	height: 100px;
+	width: 98%;
+	margin-left: 2.5%;
+	margin-top: 5%;
+	text-align: center;
+}
+.lst>li>span:nth-child(1)>img {
+	width: auto;
+	height: 100%;
+}
+.lst>li>span:nth-child(2) {
+	height: auto;
+	width: 97%;
+	margin-left: 2.5%;
+}
+.all-p-d>a {
+	float: left;
+	width: 100%;
+	color: #323232;
+	height: auto;
+	overflow: hidden;
+	font-size: 1.1em;
+	margin-top: 5px;
+}
+.all-p-d>a:nth-child(1) {
+	height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.all-p-d>a:nth-child(2)>em {
+	float: left;
+}
+.all-p-d>a:nth-child(2)>em:nth-child(1) {
+	color: #FF4400;
+	width: 100%;
+}
+.all-p-d>a:nth-child(2)>em:nth-child(3) {
+	float: right;
+	margin-right: 2px;
+}
+.telephone {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.homelogo {
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin: 10px 5px;
+	/*line-height: 50px;*/
+}
+.homelogo>img {
+	width: 100%;
+	/*height: 100%;*/
+}

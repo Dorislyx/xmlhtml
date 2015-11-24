@@ -1,0 +1,231 @@
+@charset "utf-8";
+body {
+	background: #fbfbfb;
+}
+.search>span.left {
+	background-image: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	width: 40px;
+}
+.search>span.right {
+	background-image: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	width: 40px;
+	right: 20px;
+	font-size: 1.2em;
+}
+.search>span.center {
+	left: 20px;
+	right: 40px;
+}
+.head-title {
+	height: 35px;
+	margin: 7px 0px;
+}
+.titleone {
+	height: 100%;
+	float: left;
+	line-height: 35px;
+	text-align: left;
+	color: white;
+	font-size: 1.2em;
+}
+.title-sachs {
+	background-color: white;
+	float: left;
+	width: 86%;
+	border-radius: 5px;
+	height: 30px;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+.eachs {
+	float: right;
+	width: 25px;
+	height: 28px;
+	background-image: url(../../img/eachs.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 5px;
+}
+.eachs-ctx {
+	float: left;
+	height: 100%;
+	width: 84%;
+}
+.eachs-ctx>input {
+	width: 100%;
+	height: 100%;
+	float: left;
+	font-size: 1em;
+	color: #A9A9A9;
+}
+.search_title span {
+	
+	height: 64%;
+	float: right;
+	line-height: 35px;
+	font-size: 1.3em;
+}
+.search_title input {
+	width: 63%;
+	height: 39px;
+	/*border: 1px solid #ccc;*/
+	
+	border-left: 0px;
+	padding-right: 12%;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/*background-image: url(../../img/eachs.png);*/
+	
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position: right center;
+	background-position-x: 97%;
+	font-size: 1.2em;
+}
+.search_title span.search-btn {
+	float: right;
+	position: absolute;
+	width: 32px;
+	height: 36px;
+	right: 45px;
+}
+.hotsearch {
+	height: 48px;
+	background: #f2f4f7;
+	line-height: 50px;
+	padding: 2px 5px;
+	border: 1px solid #d5d6d7;
+}
+.hotsearch>b {
+	float: left;
+	margin-top: -2px;
+}
+.hotsearch>* {
+	margin: 5px;
+	font-size: 1.2em;
+}
+.hotsearch>a {
+	border: 1px solid #e5e4e4;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	border-radius: 10px;
+	background: #fff;
+}
+.historysearch {
+	background: #f2f5f7;
+	border: 1px solid #e5e4e4;
+	padding: 0 5%;
+	margin-top: 10px;
+}
+.historysearch>p {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e5e6e7;
+	font-size: 1.2em;
+}
+.clear {
+	width: 60%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border: 1px solid #707171;
+	background: #fff;
+	margin: 30px auto;
+	border-radius: 5px;
+	color: #979898;
+	font-size: 1.2em;
+}
+#histseaech>b {
+	margin-left: 5px;
+	color: #808080;
+}
+.search_title {
+	height: 60px;
+	
+}
+.search_title span {
+	
+	/*height: 64%;
+	float: right;*/
+	line-height: 30px;
+	/*margin-right: 2%;*/
+	font-size: 1.3em;
+	background-image: url(../../img/eachs.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position:right center;
+}
+#back {
+	float: left;
+	background-image: url(../../img/black.png);
+	background-position: center;
+	background-size: 32%;
+	background-repeat: no-repeat;
+	width: 26px;
+}
+.search_title span.wacsca {
+	float: left;
+	position: absolute;
+	height: 30px;
+	width: 50px;
+	background-color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	z-index: 1000000;
+	padding-left: 5px;
+	/* border: 1px solid #ccc; */
+	
+	margin-right: 0px;
+	border-right: 0px;
+	text-align: left;
+	line-height: 30px;
+	font-size: 1.1em;
+	background-image: none;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 12px;
+	background-position-x: 85%;
+}
+.search_title input {
+	width: 50%;
+	height: 30px;
+	/* border: 1px solid #ccc; */
+	padding-left: 26%;
+	border-left: 0px;
+	-webkit-appearance: none;
+	font-size: 1.2em;
+}
+.search_title span.search-btn {
+	float: left;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 5px;
+}
+.search_title span.back_detiles {
+	background-image: url(../../img/back.png);
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: center;
+	float: left;
+	height: 29px;
+	width: 30px;
+	height: 50px;
+}
+.search_title>div {
+	width: 80%;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 9px;
+	position: relative;
+}

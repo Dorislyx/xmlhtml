@@ -1,0 +1,110 @@
+@charset "utf-8";
+body {
+	background-color: #f2f2f2;
+}
+.city>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+body {
+	font-size: 0.7em;
+}
+.city>.left {
+	background-image: url(../img/return.png);
+	background-size: 25%;
+	font-size: 0.8em;
+	text-align: right;
+	line-height: 30px;
+}
+.city>.center {
+	font-size: 1.5em;
+}
+.city>.right {
+	background-image: none;
+}
+.this-city {
+	width: 100%;
+	height: 70px;
+}
+.hot-city {
+	width: 100%;
+	height: auto;
+}
+.desc {
+	width: 90%;
+	height: 25px;
+	float: left;
+	font-size: 1.1em;
+	color: #3285E1;
+	text-align: left;
+	line-height: 25px;
+	margin-left: 10px;
+}
+.city-name {
+	width: 100%;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	background-color: white;
+}
+.city-name>a {
+	margin-left: 10px;
+	font-size: 1.5em;
+	color: #333333;
+}
+.city-names {
+	width: 95%;
+	height: 42px;
+	float: left;
+	line-height: 40px;
+	background-color: #F7F7F7;
+}
+.hot-city>.city-name {
+	height: auto;
+}
+.city-names>a {
+	margin-left: 10px;
+	font-size: 1.5em;
+	color: #333333;
+	width: 95%;
+	float: left;
+	margin-left: 2.5%;
+	border-bottom: 1px solid #E8E8E8;
+}
+.city-name>a.hot-city-one {
+	border: 1px solid #C8C8C8;
+	float: left;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin: 10px 12px;
+	color: #313131;
+	font-size: 1.2em;
+}
+.city-list {
+	width: 100%;
+	height: auto;
+}
+.option-city {
+	width: 15px;
+	height: 80%;
+	position: fixed;
+	right: 0px;
+	top: 15%;
+	z-index: 110;
+}
+.option-list {
+	width: 100%;
+	height: 100%;
+}
+.option-list>li {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 1px 0px;
+	color: #3083E3;
+}

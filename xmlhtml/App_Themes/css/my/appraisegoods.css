@@ -1,0 +1,157 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+body{
+	background-color: #f3efe8;
+}
+.appraisegoods>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.appraisegoods>span.center{
+	font-size: 1.5em;
+}
+.project_list{
+	padding: 2%;
+}
+.project_list>li{
+	border-top: 1px solid #d9d7d7;
+	border-bottom: 1px solid #d9d7d7;
+	padding: 10px 10px;
+	background-color:#fbfbfb ;
+	margin-bottom: 10px;
+}
+.project_list li>div:nth-of-type(1){
+	float: left;
+	max-height: 100px;
+	width: 25%;
+	text-align: center;
+	margin-top: 5px;
+}
+.project_list li>div:nth-of-type(1) img{
+	width: 50px;
+}
+.project_list li>div:nth-of-type(2){
+	float: right;
+	max-height: 105px;
+	width: 74%;
+}
+.project_list li>div:nth-of-type(2) span{
+	color: #e04e4e;
+  	font-size: 1.2em;
+  	float: right;
+  	border: 1px solid #e04e4e;
+  	width: 35%;
+  	height: 22px;
+  	border-radius: 5px;
+  	text-align: center;
+  	line-height: 22px;
+}
+.project_list li>div:nth-of-type(2) p{
+	line-height: 24px;
+  	margin: 5px 0 4px;
+  	font-size: 1.2em;
+}
+.project_list>li>span{
+	width: 100%;
+	float: left;
+	line-height: 25px;
+	font-size: 1.4em;
+}
+.project_list>li>div:nth-of-type(3){
+	width:100%;
+	height:60px;
+	padding-left: 15px;
+	float:left;
+	
+}
+.project_list>li>p{
+	float:left;
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	text-indent: 17px;
+}
+.project_list>li>div:nth-of-type(3){
+	margin-left: 2px;
+}
+.project_list>li>div:nth-of-type(3) img{
+	float:left;
+	width:20%;
+	height:100%;
+	margin-right: 10px;
+}
+.project_list>li>div:nth-of-type(4){
+	width:100%;
+	height:30px;
+	float:left;
+	margin-top: 10px;
+}
+.project_list>li>div:nth-of-type(4) span{
+	float:left;
+	color:red;
+	font-size: 1.2em;
+	margin-left: 11px;
+	
+}  
+.project_list>li>div:nth-of-type(4) span.score{
+	float:right;
+} 
+.img-mask1{
+	display: none;
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index: 800;
+	background:rgba(0,0,0,0.5);
+}
+.img-mask{
+	display: none;
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index: 801;
+	
+	
+}
+.img-mask>ul{
+	width:300%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.img-mask>ul li{
+	width:33.3%;
+	height:100%;
+	float:left;
+	position: relative;
+}
+.img-mask>ul li img{
+	width:100%;
+	height:350px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -50%;
+	margin-top: -175px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

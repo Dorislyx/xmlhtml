@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{
+	font-family: "microsoft yahei";
+}
+header>span.left{
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	width: 35px;
+	left: 0px;
+	z-index: 1100;
+}
+
+.record>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.record>span.center{
+	font-size: 1.5em;
+}
+.project_list{
+	padding: 2%;
+	
+}
+.project_list>li{
+	display: -webkit-box;
+	border-bottom: 1px dashed #d9d7d7;
+	padding: 10px 10px;
+}
+
+.project_list li>div:nth-child(1){
+	display: none;
+	width: 16%;	
+	max-height: 100px;
+	background-image: url(../../img/delicon.png);
+	background-position-x:left;
+	background-position-y:12px;
+	background-size: 50%;
+	background-repeat: no-repeat;	
+}
+.project_list li>div.sele{
+	width: 16%;	
+	max-height: 100px;
+	background-image: url(../../img/delgo.png);
+	background-position-x:left;
+	background-position-y:4px;
+	background-size: 60%;
+	background-repeat: no-repeat;	
+}
+/*.project_list li>div:nth-child(1) img{
+	width: 60%;
+	margin-top: 110%;}
+*/
+.project_list li>div:nth-of-type(2){	
+	width: 60px;
+	height: 60px;
+	
+}
+.project_list li>div:nth-of-type(2) img{
+	width: 100%;
+	height: 100%;
+}
+.project_list li>div:nth-of-type(3){
+	-webkit-box-flex:1;
+	margin-left: 10px;
+}
+.project_list li>div:nth-of-type(3) span{
+	color:#e04e4e ;
+	font-size: 1.2em;
+}
+.project_list li>div:nth-of-type(3) p{
+	height: 40px;	
+  	font-size: 1.2em;
+}
+
+
+
+
+.delok{
+	width: 50%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1.3em;
+	color: white;
+	background-color: #c91424;
+	border-radius:5px;
+	display: none;
+	margin: 20px auto;
+	/*position: absolute;
+	left:25%;
+	bottom: 10px;
+	z-index: 100;
+	display: none;*/
+}
+
+
+
+
+
+

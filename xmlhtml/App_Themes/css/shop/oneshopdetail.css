@@ -1,0 +1,115 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+section{
+	background-color: #F4F6F8;
+}
+
+.oneshopdetail>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.oneshopdetail>span.center {
+	font-size: 1.5em;
+}
+.shop_title {
+	height: 90px;
+	background: #fff;
+}
+.shop_title>div>span:nth-of-type(1) {
+	max-width: 75px;
+	float: left;
+	margin-top: 10px;
+}
+.shop_title>div>span:nth-of-type(1) img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.shop_title>div>span:nth-of-type(2) {
+	margin-top: 13px;
+	float: left;
+	font-size: 1.4em;
+	width: 70%;
+}
+.shop_title>div>b {
+	float: left;
+	font-weight: normal;
+	padding-top: 10px;
+	font-size: 1.2em;
+	text-indent: 5px;
+}
+.allgoods {
+	height: 50px;
+	margin-top: 10px;
+}
+.allgoods>li {
+	float: left;
+	width: 24%;
+	text-align: center;
+	border-right: 1px solid #efefef;
+}
+.allgoods>li.noborder {
+	border: 0;
+}
+.allgoods>li>span:nth-of-type(2) {
+	margin-top: 5px;
+	display: inline-block;
+	color: #8e8e8e;
+}
+.noborder>span:nth-of-type(1) {
+	display: inline-block;
+	background-image: url(../../img/share1.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 17px;
+	background-size: 87%;
+}
+.allgoods>li.noborder>span:nth-of-type(2) {
+	margin-top: 1px
+}
+.shop_detail {
+	margin: 15px 0;
+	background: #fff;
+	min-height: 200px;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+.shop_detail>p {
+	line-height: 30px;
+	margin-top: 8px;
+	margin-left: 10px;
+	color: #b6b6b6;
+	font-size: 1.2em;
+}
+.contract {
+	background: #fff;
+	min-height: 200px;
+	border-top: 1px solid #EEEEEE;
+}
+.contract>ul>li {	
+	line-height: 40px;
+	padding-left: 10px;
+	border-bottom: 1px solid #EEEEEE;
+	min-height: 35px;	
+}
+.contract>ul>li:nth-child(1){
+	background-image: url(../../img/invoice-arrow.png);
+	background-position: right 15px center;
+	background-size: 9px;
+	background-repeat: no-repeat;
+}
+.homelogo {
+	max-height: 53px;
+	margin: 1px 5px;
+}
+#linkhome {
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 1.2em;
+}

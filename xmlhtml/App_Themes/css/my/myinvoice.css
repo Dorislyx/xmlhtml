@@ -1,0 +1,73 @@
+@charset "utf-8";
+* {
+	font-family: "microsoft yahei";
+}
+body {
+	background-color: #F2F2F2;
+}
+.marginT15{
+	margin-top:15px;
+}
+.myinvoice>span.left {
+	background-image: url(../../img/back.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width: 45px;
+}
+.myinvoice>span.center{
+	font-size: 1.5em;
+}
+.article{
+	height:93%;
+}
+.scrollinvice{
+	height:100%;
+}
+.invoice-head,.myinvlist>li{
+	line-height: 33px;
+	padding-left: 15px;
+	font-size: 1.3em;
+	background-color: #eeeeee;
+	border-bottom: 1px solid #ffffff;
+}
+.invoice-head>span,.myinvlist li span{
+	float:right;
+}
+.invoice-head span.arrowL{
+	width:30px;
+	height:30px;
+	background-image: url(../../img/invoice-arrow.png);
+	background-position: right 15px center;
+	background-repeat: no-repeat;
+}
+
+.myinvlist li span{
+	width:28px;
+	height:28px;
+	margin-right: 10px;
+	margin-top: 3px;
+	background-image: url(../../img/noselected.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.myinvlist li.selected>span{
+	width:28px;
+	height:28px;
+	background-image: url(../../img/invoice-selected.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.surebox{
+	margin-top: 60px;
+	padding:0 20px;
+}
+.sure,.del{
+	height:50px;
+	line-height: 50px;
+	font-size: 1.5em;
+	color:#ffffff;
+	text-align: center;
+	background-color: #c91424;
+	border-radius:5px;
+}
