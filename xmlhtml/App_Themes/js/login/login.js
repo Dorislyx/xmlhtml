@@ -110,4 +110,4 @@ window.login = (function() {
 		start: start
 	}
 })();
-	window.login.start();
+window.login.start();
